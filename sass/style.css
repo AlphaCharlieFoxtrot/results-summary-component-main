@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hanken+Grotesk";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 375px;
+  gap: 20px;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 80px;
+}
+@media (min-width: 1024px) {
+  body main {
+    height: 100vh;
+    width: 100%;
+  }
+}
+body main .conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  min-width: 375px;
+  max-width: 550px;
+  width: 100%;
+  min-width: 375px;
+}
+@media (min-width: 1024px) {
+  body main .conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 25px;
+    padding-right: 30px;
+    box-shadow: 15px 15px 19px rgba(0, 0, 0, 0.2);
+    max-width: 40%;
+    height: 60%;
+  }
+}
+body main .conteiner .result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  padding: 25px 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 1024px) {
+  body main .conteiner .result {
+    border-radius: 20px;
+    height: 100%;
+  }
+}
+body main .conteiner .result .score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+body main .conteiner .result .score h1 {
+  font-size: 24px;
+  color: grey;
+}
+body main .conteiner .result .score p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to top, hsl(241, 72%, 46%), hsl(256, 72%, 46%));
+  padding: 50px 60px;
+  border-radius: 50%;
+  color: grey;
+}
+body main .conteiner .result .score p span {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+body main .conteiner .result .comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+body main .conteiner .result .comment h2 {
+  color: white;
+}
+body main .conteiner .result .comment p {
+  color: grey;
+}
+body main .conteiner .summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+body main .conteiner .summary .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+body main .conteiner .summary .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+body main .conteiner .summary .cards .card p span {
+  color: grey;
+}
+body main .conteiner .summary .cards .Reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+body main .conteiner .summary .cards .Reaction h3 {
+  color: hsl(0, 100%, 67%);
+}
+body main .conteiner .summary .cards .Memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+body main .conteiner .summary .cards .Memory h3 {
+  color: hsl(39, 100%, 56%);
+}
+body main .conteiner .summary .cards .Verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+body main .conteiner .summary .cards .Verbal h3 {
+  color: hsl(166, 100%, 37%);
+}
+body main .conteiner .summary .cards .Visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+body main .conteiner .summary .cards .Visual h3 {
+  color: hsl(234, 85%, 45%);
+}
+body main .conteiner .summary button {
+  width: 100%;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */
